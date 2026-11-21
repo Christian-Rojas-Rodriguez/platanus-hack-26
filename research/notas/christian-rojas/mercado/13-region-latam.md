@@ -1,0 +1,36 @@
+# 13 - Barrido regional LATAM: seguridad de IA / agentes / anti-fraude IA / ciberseguridad con IA
+
+Fecha de la investigación: 21-nov-2026. Nota de método: la cuota de búsquedas web se agotó tras ~6 búsquedas (varias en paralelo fallaron por límite) y se completó con 3 lecturas de páginas. Cobertura PARCIAL: Truora, Unico, Clearsale, Tempest, Apura, Delta Protect, Zenta y NeuralTrust quedaron SIN verificar ("sin dato"). No se inventó ninguna cifra.
+
+## 1. Tabla de empresas
+
+| Empresa | País | Qué vende | Última ronda (monto, fecha, inversores) | Evidencia de facturación / clientes | URL |
+|---|---|---|---|---|---|
+| Strike | Uruguay (opera en 8 países) | Pentesting continuo con IA (seguridad OFENSIVA con IA; no seguridad DE la IA) | Serie A US$13,5M, 26-mar-2025. Lidera FinTech Collective; Galicia Ventures, Greyhound Capital, FJ Labs, Canary. Previa: seed US$5,4M (Greyhound) | Más de 100 clientes (Santander, MercadoLibre, OLX, Delivery Hero), 70% financieras. ARR: meta proyectada >US$10M para fin 2025 (PROYECCIÓN del fundador, no confirmada; sin dato de ingresos reales). Contratos US$15k a ~US$500k | https://www.bloomberglinea.com/tecnologia/innovacion/la-startup-uruguaya-de-ciberseguridad-strike-recibe-us135-millones-para-crecer-en-brasil/ ; https://www.forbesargentina.com/negocios/el-hacker-uruguayo-creo-su-empresa-ciberseguridad-va-mercado-estadounidense-espera-facturar-us10-millones-2025-n73236 |
+| Hackmetrix | Chile | Cumplimiento/ciberseguridad para startups y pymes (ISO 27k, PCI); desde ago-2025 unidad de "AI assurance": diseño seguro de arquitecturas y agentes de IA, políticas de uso de ChatGPT, hacking ético de agentes (lanzamiento oficial previsto nov-2025) | Puente US$1,3M, jun-2023 (Daedalus; Matterscale, Bridge Latam, Daniel Undurraga). Seed previa US$1,5M (Cometa Ventures). Serie A "proyectada para fines 2024": sin confirmación encontrada | Pilotos de seguridad de agentes con Rocketbot, Betterfly, Fintoc; meta de 50-60 proyectos de AI assurance/hacking ético en 2025 (plan, no resultado). Alianza con AWS. Ingresos: sin dato (solo "+150% ventas en México en 12 meses") | https://www.df.cl/df-lab/innovacion-y-startups/hackmetrix-crea-unidad-especializada-de-hackers-eticos-para-detectar ; https://ecosistemastartup.com/hackmetrix-levanta-us13m-para-expandir-ciberseguridad-con-ia-en-latam/ |
+| Roma AI | Uruguay (opera en LATAM) | Agentes de IA empresariales (CRM, ERP, pagos) con énfasis en seguridad, trazabilidad y supervisión. Es plataforma de agentes, NO producto de seguridad | Seed US$1,2M, artículo del 28-ago-2026; lidera Invexor Venture Partners (Chile) | Más de 50 organizaciones (Caja Los Andes, Banco Tanner, BICE Vida, Falabella, etc.). Ingresos: sin dato | https://ecosistemastartup.com/?p=102643 |
+| Zynap | España (expansión a LATAM: Argentina, Colombia) | Ciberseguridad preventiva con IA generativa (no seguridad de IA) | Seed-2 ~EUR6-6,1M, dic-2025/ene-2026; lideran Kibo Ventures y Kfund; total EUR12M; Serie A planeada 2026 | Socios regionales Biwares, Núcleo Rojo, Insside. Ingresos: sin dato | https://www.vanguardia.com/mundo/tecnologia/2026/01/14/la-startup-que-quiere-anticiparse-a-los-ciberataques-acaba-de-cerrar-una-nueva-inversion-millonaria/ ; https://portalinnova.cl/zynap-cierra-una-ampliacion-de-la-ronda-seed-de-6-millones-de-euros-y-acelera-su-entrada-en-el-mercado-latinoamericano-de-la-mano-de-biwares-nucleo-rojo-e-insside/ |
+| Truora, Unico, Clearsale, Tempest, Apura, Delta Protect, Zenta, NeuralTrust (España) | varios | Anti-fraude/identidad/ciberseguridad | sin dato (no verificados por límite de búsquedas) | sin dato | sin dato |
+
+## 2. Qué ya está saturado
+
+- Pentesting/seguridad ofensiva automatizada con IA: Strike ya tiene Serie A, 100+ clientes y presencia en 8 países; competir de frente en LATAM es difícil (https://www.bloomberglinea.com/tecnologia/innovacion/la-startup-uruguaya-de-ciberseguridad-strike-recibe-us135-millones-para-crecer-en-brasil/).
+- Cumplimiento/ciberseguridad pyme y "ciberseguridad con IA" genérica: Hackmetrix, Zynap (España con foco LATAM) y los players anti-fraude/identidad conocidos de la región (Truora, Unico, Clearsale; sin verificar aquí).
+- A nivel global, la seguridad de agentes ya recibe capital abundante en EE. UU.: Opsin US$21M, Asymptote Labs US$5,5M, Rein Security US$25M, Runlayer (montos/fechas no verificados por mí; solo aparecen en titulares del agregador https://ecosistemastartup.com/inversion-semilla-en-ciberseguridad-con-ia-us855m-en-2026/, que además cita US$855M en seeds de ciberseguridad con IA en 2026, cifra no verificada de forma independiente).
+
+## 3. Huecos / mar azul
+
+Pregunta clave: ¿existe una startup LATAM de seguridad de IA propiamente tal? En lo que pude verificar, NO con producto y ronda propios: lo más cercano es una unidad de servicios dentro de Hackmetrix (pilotos, sin ronda específica) y Roma AI (agentes con "seguridad" como atributo, seed de US$1,2M). La búsqueda de "seguridad de agentes de IA" en LATAM no devolvió ninguna ronda 2025-2026 dedicada (https://ecosistemastartup.com/inversion-semilla-en-ciberseguridad-con-ia-us855m-en-2026/ para el contexto global). Ausencia de resultados con cobertura parcial: es indicio, no prueba.
+
+Evidencia de que hay demanda real y sin producto local maduro:
+- Hackmetrix lanzó la unidad porque empresas LATAM (Betterfly, Fintoc, Rocketbot) necesitan verificar que sus agentes no filtren datos ni sirvan de pivote a otros componentes; se hace como servicio/proyecto, no como producto escalable (https://www.df.cl/df-lab/innovacion-y-startups/hackmetrix-crea-unidad-especializada-de-hackers-eticos-para-detectar).
+- Roma AI ya despliega agentes con acceso a CRM/ERP/pagos en 50+ organizaciones financieras de la región (Banco Tanner, Falabella, etc.): agentes con permisos sobre sistemas críticos y sin capa de seguridad local dedicada (https://ecosistemastartup.com/?p=102643).
+- Las financieras son ~70% de la cartera de Strike: el sector regulado ya compra seguridad con presupuesto y contratos de hasta ~US$500k (https://www.forbesargentina.com/negocios/el-hacker-uruguayo-creo-su-empresa-ciberseguridad-va-mercado-estadounidense-espera-facturar-us10-millones-2025-n73236).
+
+Huecos candidatos (hipótesis a validar): control de permisos/identidad y auditoría de agentes en bancos/fintechs LATAM; pruebas adversariales (red teaming) de agentes en español/portugués con foco regulatorio local; prevención de fuga de datos hacia herramientas de IA de terceros.
+
+## 4. Tres conclusiones
+
+1. El espacio "seguridad de IA" LATAM parece prácticamente vacío en producto y capital propios; las rondas de ciberseguridad regional (Strike, Hackmetrix, Zynap) son de seguridad ofensiva/cumplimiento con IA, no de seguridad DE la IA.
+2. Hay señal de demanda en financieras: ya despliegan agentes (Roma AI) y compran seguridad cara (Strike); Hackmetrix lo atiende artesanalmente con pilotos. Un producto escalable de seguridad/gobernanza de agentes para banca LATAM es un hueco plausible.
+3. Riesgo y límite: competidores globales (US) con rondas grandes pueden entrar a LATAM; y este barrio es incompleto (Truora, Unico, Clearsale, Tempest, Apura, Delta Protect, Zenta, NeuralTrust sin verificar; faltan Brasil y México en profundidad). Antes de apostar, repetir la búsqueda en Crunchbase/LAVCA/Distrito.
