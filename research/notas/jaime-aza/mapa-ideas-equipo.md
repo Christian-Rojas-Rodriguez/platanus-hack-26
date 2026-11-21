@@ -25,7 +25,7 @@ Versión 5 (21-11-2026). Mueve el juez por ejecución a la zona de alto riesgo t
 | 13 | Sandbox tripwires | Brief de Juanfe | 3,4 | 5,5 | A5 del brief. Ya hay proyectos parecidos (hackbait, Tracebit) y Owliver y Agent Zero usaron canarios en el tour. Mejor como componente de la 1 o la 3. |
 | 14 | MCP TimeLock / Shield | Tomás | 3,3 | 4,0 | Roxy e Ikarus ya son gateways MCP, y mcp-scan fija herramientas por hash desde 2025. |
 | 15 | Multiagente A2A | Christian | 6,9 | 3,7 | Tarjetas de agente firmadas y procedencia entre saltos (Christian). Vacío, pero sin comprador y cerca de otro «agent guard». |
-| 16 | Recuperación tras agente destructor | Christian + Jaime | 4,6 | 6,5 | Reformula el «rewind» de Christian con la investigación de ransomware. Un agente borra o cifra archivos por terminal; se mide cuánto recupera el deshacer de Claude Code, Gemini CLI y OpenCode contra copias fuera de su alcance. Línea base real con límites documentados. En contra: el remedio son copias de seguridad, técnica conocida. |
+| 16 | Reversibilidad para agentes | Christian + Jaime | 4,0 | 8,3 | Funde la recuperación tras un agente destructor, el «rewind» de Christian y dos ideas de Jaime: dar al agente todo el acceso pero que todo sea deshacible, y un producto cuyo cliente es el propio agente (servidor MCP de puntos de restauración y segunda opinión sobre reversibilidad). Se mide contra el deshacer de Claude Code, Gemini CLI y OpenCode. En contra: el remedio de fondo son copias, y un agente que quiere engañar no lo llamaría. |
 | 17 | Radar + harness | Jaime | 4,8 | 2,6 | Mi principal de la primera ronda. Agent Zero (Caracas) ya hizo el ciclo ataque, confirmación y regla, con 1.176 pruebas; y un scraper de jailbreaks roza la línea roja del brief. |
 | 18 | Qwen + decoding | Reunión con el mentor | 4,3 | 3,4 | Gancho real (Cohere, oct-2026), pero restringir tokens no frena una URL dentro de un comando. |
 | 19 | Harness en cascada | Mauricio | 2,6 | 2,6 | El patrón que más vio el jurado: proxy o hook delante del agente con reglas deterministas (HAWK, Aegis, Hackan't, wardlm, Tranquera). |
@@ -40,7 +40,8 @@ Fuera del gráfico: Agent Escape Lab y Prompt-to-Policy Compiler (Tomás), MCP-S
 
 ## Mi lectura (opinión)
 
-- **Ninguna se despega.** Las cuatro de arriba (preflight 3, brecha en español 2, recuperación tras agente destructor 16 y Eval Mirage 4) están a 3 puntos en el ranking; lo que las separa es qué podemos tener funcionando de punta a punta el sábado en la mañana.
+- **Mi favorita: reversibilidad para agentes (16).** Responde la tensión de fondo del track (más poder al agente es más útil y más riesgoso) sin caer en otro guardia que bloquea: en vez de quitarle poder, todo lo que haga se puede deshacer, y el cliente es el propio agente.
+- **Muy cerca:** preflight (3), brecha en español (2) y Eval Mirage (4). Lo que las separa es qué podemos tener funcionando de punta a punta el sábado en la mañana.
 - **El juez por ejecución (1) bajó:** el impacto sigue alto, pero la dificultad real es mucho mayor de lo que estimé. Solo como piloto acotado.
 - **Lo que dejaría:** todo lo que tiene anillo rojo. Es lo que más se construyó en el tour o ya existe como herramienta.
 
