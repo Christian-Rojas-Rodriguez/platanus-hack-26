@@ -8,7 +8,7 @@
 
 ![Notas de Jaime: mapa de dificultad vs impacto](research/notas/jaime-aza/mapa-ideas-equipo.svg)
 
-Versión 4, con las ideas nuevas de Tomás y Christian y una tercera investigación (problemas por región y qué gana hackathons de AI safety). El círculo blanco es una idea a la que llegamos varios por separado; el anillo rojo punteado marca lo que ya existe o el jurado ya vio en el tour. Razones de cada punto en [mapa-ideas-equipo.md](research/notas/jaime-aza/mapa-ideas-equipo.md), puntaje de las 31 propuestas con la rúbrica en [ranking-propuestas.md](research/notas/jaime-aza/ranking-propuestas.md) y resumen de la investigación en [investigacion-3-problemas-mundiales.md](research/notas/jaime-aza/investigacion-3-problemas-mundiales.md).
+Versión 5: suma las ideas de Federico y Mauricio y una investigación sobre ransomware con IA, y baja el juez por ejecución tras revisarlo a fondo. El círculo blanco es una idea a la que llegamos varios por separado; el anillo rojo punteado marca lo que ya existe o el jurado ya vio en el tour. Razones de cada punto en [mapa-ideas-equipo.md](research/notas/jaime-aza/mapa-ideas-equipo.md), puntaje de las 34 propuestas con la rúbrica en [ranking-propuestas.md](research/notas/jaime-aza/ranking-propuestas.md) y resumen de la investigación en [investigacion-3-problemas-mundiales.md](research/notas/jaime-aza/investigacion-3-problemas-mundiales.md) e [investigacion-4-ransomware-con-ia.md](research/notas/jaime-aza/investigacion-4-ransomware-con-ia.md).
 
 ## Estructura
 

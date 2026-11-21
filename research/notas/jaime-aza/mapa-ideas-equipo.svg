@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="612" viewBox="0 0 900 612" font-family="sans-serif">
 <rect width="900" height="612" fill="#ffffff"/>
-<text x="90" y="26" fill="#17190f" font-size="13" font-weight="700">Notas de Jaime · opinión para discutir, no decisión del equipo · v4</text>
+<text x="90" y="26" fill="#17190f" font-size="13" font-weight="700">Notas de Jaime · opinión para discutir, no decisión del equipo · v5</text>
 <rect x="90" y="60" width="360" height="184" fill="#eef2c8"/>
 <text x="98" y="78" fill="#7a8a00" font-size="11" font-weight="700">GOLDEN ZONE · fácil y mucho impacto</text>
 <rect x="594" y="60" width="216" height="460" fill="#f3e3e1" opacity=".7"/>
@@ -23,12 +23,12 @@
 <text x="450.0" y="560" text-anchor="middle" fill="#17190f" font-size="13" font-weight="700">Dificultad (estimada para 12 a 15 h de construcción) →</text>
 <text x="30" y="290.0" text-anchor="middle" fill="#17190f" font-size="13" font-weight="700" transform="rotate(-90 30 290.0)">Impacto (wow + valor contrafactual) →</text>
 <g font-size="12" font-weight="700">
-<circle cx="493.2" cy="124.40000000000003" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="493.2" y="128.90000000000003" text-anchor="middle" fill="#17190f">1</text>
-<text x="511.2" y="128.40000000000003" fill="#17190f">Juez por ejecución</text>
-<circle cx="349.2" cy="198.0" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="349.2" y="202.5" text-anchor="middle" fill="#17190f">2</text>
-<text x="331.2" y="202.0" text-anchor="end" fill="#17190f">Brecha en español regional</text>
-<circle cx="378.0" cy="225.59999999999997" r="11.5" fill="#7a8a00"/><text x="378.0" y="230.09999999999997" text-anchor="middle" fill="#ffffff">3</text>
-<text x="360.0" y="229.59999999999997" text-anchor="end" fill="#17190f">Preflight de contención</text>
+<circle cx="637.1999999999999" cy="170.40000000000003" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="637.1999999999999" y="174.90000000000003" text-anchor="middle" fill="#17190f">1</text>
+<text x="619.1999999999999" y="174.40000000000003" text-anchor="end" fill="#17190f">Juez por ejecución</text>
+<circle cx="320.4" cy="179.59999999999997" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="320.4" y="184.09999999999997" text-anchor="middle" fill="#17190f">2</text>
+<text x="302.4" y="183.59999999999997" text-anchor="end" fill="#17190f">Brecha en español regional</text>
+<circle cx="349.2" cy="216.40000000000003" r="11.5" fill="#7a8a00"/><text x="349.2" y="220.90000000000003" text-anchor="middle" fill="#ffffff">3</text>
+<text x="331.2" y="220.40000000000003" text-anchor="end" fill="#17190f">Preflight de contención</text>
 <circle cx="507.59999999999997" cy="198.0" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="507.59999999999997" y="202.5" text-anchor="middle" fill="#17190f">4</text>
 <text x="525.5999999999999" y="202.0" fill="#17190f">Eval Mirage</text>
 <circle cx="421.2" cy="253.2" r="11.5" fill="#7a4fb5"/><text x="421.2" y="257.7" text-anchor="middle" fill="#ffffff">5</text>
@@ -58,9 +58,8 @@
 <text x="350.6" y="345.0" fill="#17190f">MCP TimeLock / Shield</text>
 <circle cx="586.8" cy="349.79999999999995" r="11.5" fill="#7a4fb5"/><text x="586.8" y="354.29999999999995" text-anchor="middle" fill="#ffffff">15</text>
 <text x="604.8" y="353.79999999999995" fill="#17190f">Multiagente A2A</text>
-<circle cx="522.0" cy="372.79999999999995" r="16" fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="3 3"/>
-<circle cx="522.0" cy="372.79999999999995" r="11.5" fill="#7a4fb5"/><text x="522.0" y="377.29999999999995" text-anchor="middle" fill="#ffffff">16</text>
-<text x="545.0" y="376.79999999999995" fill="#17190f">Rewind de acciones</text>
+<circle cx="421.2" cy="221.0" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="421.2" y="225.5" text-anchor="middle" fill="#17190f">16</text>
+<text x="439.2" y="240.0" fill="#17190f">Recuperación tras agente destructor</text>
 <circle cx="435.59999999999997" cy="400.4" r="16" fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="3 3"/>
 <circle cx="435.59999999999997" cy="400.4" r="11.5" fill="#7a8a00"/><text x="435.59999999999997" y="404.9" text-anchor="middle" fill="#ffffff">17</text>
 <text x="412.59999999999997" y="404.4" text-anchor="end" fill="#17190f">Radar + harness</text>
@@ -80,6 +79,12 @@
 <circle cx="666.0" cy="428.0" r="16" fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="3 3"/>
 <circle cx="666.0" cy="428.0" r="11.5" fill="#c23b5a"/><text x="666.0" y="432.5" text-anchor="middle" fill="#ffffff">23</text>
 <text x="689.0" y="432.0" fill="#17190f">Benchmark hardener</text>
+<circle cx="464.40000000000003" cy="359.0" r="16" fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="3 3"/>
+<circle cx="464.40000000000003" cy="359.0" r="11.5" fill="#8a6d00"/><text x="464.40000000000003" y="363.5" text-anchor="middle" fill="#ffffff">24</text>
+<text x="487.40000000000003" y="363.0" fill="#17190f">AegisHub</text>
+<circle cx="709.1999999999999" cy="382.0" r="16" fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="3 3"/>
+<circle cx="709.1999999999999" cy="382.0" r="11.5" fill="#2f6fb0"/><text x="709.1999999999999" y="386.5" text-anchor="middle" fill="#ffffff">25</text>
+<text x="686.1999999999999" y="386.0" text-anchor="end" fill="#17190f">Red teaming open-weight</text>
 </g>
 <circle cx="50" cy="596" r="5.5" fill="#ffffff" stroke="#17190f" stroke-width="2"/>
 <text x="60" y="600" fill="#5d6152" font-size="10.5">Varios coincidimos</text>
@@ -93,8 +98,10 @@
 <text x="419.6" y="600" fill="#5d6152" font-size="10.5">Christian</text>
 <circle cx="490.40000000000003" cy="596" r="6" fill="#2f6fb0"/>
 <text x="500.40000000000003" y="600" fill="#5d6152" font-size="10.5">Mauricio</text>
-<circle cx="566.0" cy="596" r="6" fill="#b5651d"/>
-<text x="576.0" y="600" fill="#5d6152" font-size="10.5">Reunión con el mentor</text>
-<circle cx="709.2" cy="596" r="6" fill="none" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="2 2"/>
-<text x="719.2" y="600" fill="#5d6152" font-size="10.5">Ya existe o ya visto</text>
+<circle cx="566.0" cy="596" r="6" fill="#8a6d00"/>
+<text x="576.0" y="600" fill="#5d6152" font-size="10.5">Federico</text>
+<circle cx="641.6" cy="596" r="6" fill="#b5651d"/>
+<text x="651.6" y="600" fill="#5d6152" font-size="10.5">Reunión con el mentor</text>
+<circle cx="784.8" cy="596" r="6" fill="none" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="2 2"/>
+<text x="794.8" y="600" fill="#5d6152" font-size="10.5">Ya existe o ya visto</text>
 </svg>
