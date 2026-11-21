@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="612" viewBox="0 0 900 612" font-family="sans-serif">
 <rect width="900" height="612" fill="#ffffff"/>
-<text x="90" y="26" fill="#17190f" font-size="13" font-weight="700">Notas de Jaime · opinión para discutir, no decisión del equipo · v5.1</text>
+<text x="90" y="26" fill="#17190f" font-size="13" font-weight="700">Notas de Jaime · opinión para discutir, no decisión del equipo · v5.2</text>
 <rect x="90" y="60" width="360" height="184" fill="#eef2c8"/>
 <text x="98" y="78" fill="#7a8a00" font-size="11" font-weight="700">GOLDEN ZONE · fácil y mucho impacto</text>
 <rect x="594" y="60" width="216" height="460" fill="#f3e3e1" opacity=".7"/>
@@ -27,8 +27,8 @@
 <text x="619.1999999999999" y="174.40000000000003" text-anchor="end" fill="#17190f">Juez por ejecución</text>
 <circle cx="320.4" cy="179.59999999999997" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="320.4" y="184.09999999999997" text-anchor="middle" fill="#17190f">2</text>
 <text x="302.4" y="183.59999999999997" text-anchor="end" fill="#17190f">Brecha en español regional</text>
-<circle cx="349.2" cy="216.40000000000003" r="11.5" fill="#7a8a00"/><text x="349.2" y="220.90000000000003" text-anchor="middle" fill="#ffffff">3</text>
-<text x="331.2" y="220.40000000000003" text-anchor="end" fill="#17190f">Preflight de contención</text>
+<circle cx="349.2" cy="142.8" r="11.5" fill="#7a8a00"/><text x="349.2" y="147.3" text-anchor="middle" fill="#ffffff">3</text>
+<text x="331.2" y="146.8" text-anchor="end" fill="#17190f">Preflight de contención</text>
 <circle cx="507.59999999999997" cy="198.0" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="507.59999999999997" y="202.5" text-anchor="middle" fill="#17190f">4</text>
 <text x="525.5999999999999" y="202.0" fill="#17190f">Eval Mirage</text>
 <circle cx="421.2" cy="253.2" r="11.5" fill="#7a4fb5"/><text x="421.2" y="257.7" text-anchor="middle" fill="#ffffff">5</text>
@@ -58,8 +58,8 @@
 <text x="350.6" y="345.0" fill="#17190f">MCP TimeLock / Shield</text>
 <circle cx="586.8" cy="349.79999999999995" r="11.5" fill="#7a4fb5"/><text x="586.8" y="354.29999999999995" text-anchor="middle" fill="#ffffff">15</text>
 <text x="604.8" y="353.79999999999995" fill="#17190f">Multiagente A2A</text>
-<circle cx="378.0" cy="138.2" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="378.0" y="142.7" text-anchor="middle" fill="#17190f">16</text>
-<text x="396.0" y="142.2" fill="#17190f">Reversibilidad para agentes</text>
+<circle cx="406.8" cy="216.40000000000003" r="11.5" fill="#ffffff" stroke="#17190f" stroke-width="3"/><text x="406.8" y="220.90000000000003" text-anchor="middle" fill="#17190f">16</text>
+<text x="424.8" y="220.40000000000003" fill="#17190f">Reversibilidad para agentes</text>
 <circle cx="435.59999999999997" cy="400.4" r="16" fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="3 3"/>
 <circle cx="435.59999999999997" cy="400.4" r="11.5" fill="#7a8a00"/><text x="435.59999999999997" y="404.9" text-anchor="middle" fill="#ffffff">17</text>
 <text x="412.59999999999997" y="404.4" text-anchor="end" fill="#17190f">Radar + harness</text>
