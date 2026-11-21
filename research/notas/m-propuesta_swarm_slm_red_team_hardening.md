@@ -124,3 +124,24 @@ Sobre el benchmark etiquetado de repos Python generados con IA:
 2. **Red Swarm + Sandbox Runner:** Contenedor base con herramientas Linux/Kali, cliente Ollama/vLLM con *structured outputs*, `SLM-Code` (white-box) + agentes paralelos (`SLM-Web/API`, `SLM-OS`, `SLM-MCP`) escribiendo en un blackboard JSON.
 3. **Blue Hardener + Loop de Re-verificación:** Generador del `git diff` (código + `Dockerfile` + `mcp-policy.json`), re-build automático y loop iterativo de validación (`PoCs` + `pytest`).
 4. **Demo UI & Pitch:** Interfaz liviana (Streamlit/web o TUI visual) que muestre en tiempo real: *Villano explotando el repo en vivo → diff de hardening → re-ataque bloqueado + tabla de métricas* (con video backup el domingo a las 08:00).
+
+---
+
+## 8. Referencias y Evidencia: SLMs Fine-Tuneados vs. Modelos Frontera
+
+> **Alcance de la afirmación:** la literatura **no** sostiene que un SLM supere a un modelo frontera en razonamiento abierto general, sino que en **subtareas de dominio acotadas y verificables** (síntesis de comandos CLI/Kali, correlación CVE/CWE, *tool-calling* estructurado) SLMs open-weight de 4B–20B con SFT/LoRA/RLVR **igualan o superan** a modelos frontera generalistas con latencia y costo 10×–30× menores y ejecución 100% local.
+
+### 8.1. Ciberseguridad y Kali Linux
+* **CyberPal 2.0 — *Toward Cybersecurity-Expert Small Language Models*** ([arXiv:2510.14113](https://arxiv.org/abs/2510.14113)): SLMs open-weight de **4B a 20B** entrenados con *chain-of-thought* curado por expertos (*SecKnowledge 2.0*). En benchmarks de investigación de amenazas y correlación de vulnerabilidades/tickets con CWEs, **el modelo de 20B quedó #1 superando a GPT-4o, OpenAI o1/o3-mini y Sec-Gemini v1**, y **el de 4B quedó #2**.
+* **KaliBench — *A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards*** (Li, Suryanto, Zhang, Naseer — NeurIPS 2026, [arXiv:2610.02206](https://arxiv.org/abs/2610.02206)): 8.504 pares intención → comando exacto sobre 1.642 herramientas de Kali Linux. Modelos abiertos sin ajustar no superan ~42% de exactitud, pero con **SFT + RL con recompensas verificables (GRPO)** un modelo compacto de **8B** alcanza rendimiento comparable a modelos frontera / MoE masivos (~685B) en ejecución precisa de CLI.
+* **Foundation-Sec-8B** (Cisco Foundation AI + Yale/CMU — [arXiv:2504.21039](https://arxiv.org/abs/2504.21039) Base, [arXiv:2601.21051](https://arxiv.org/abs/2601.21051) Reasoning): **Llama-3.1 8B** con preentrenamiento continuo sobre >5B tokens de ciberseguridad + SFT/RLVR iguala o **supera a Llama-3.1-70B-Instruct y GPT-4o-mini** en tareas especializadas de seguridad (*CTIBench-RCM*, mapeo CVE→CWE y análisis de vulnerabilidades).
+
+### 8.2. Evidencia general en SLMs, Multi-LoRA y Agentes
+* **LoRA Land — *310 Fine-tuned LLMs that Rival GPT-4*** (Zhao et al., Predibase, [arXiv:2405.00732](https://arxiv.org/abs/2405.00732)): 310 modelos ~7B con LoRA 4-bit evaluados en 31 tareas especializadas; en promedio **superaron a GPT-4 por +10 puntos** (y a sus bases por +34 puntos), demostrando además servicio *Multi-LoRA* (25 adaptadores en una sola GPU con *LoRAX*).
+* ***Small Language Models are the Future of Agentic AI*** (Belcák, Heinrich, Diao et al., NVIDIA Research, [arXiv:2506.02153](https://arxiv.org/abs/2506.02153)): fundamenta arquitecturas agénticas heterogéneas / *swarms* de SLMs donde las subtareas repetitivas (*tool-calling*, comandos, salidas estructuradas) corren en SLMs especializados con **10×–30× menor costo y latencia** que LLMs frontera.
+
+### 8.3. Modelos open-weight (7B–8B) ya disponibles para no entrenar durante la hackathon
+* **Kali CLI:** `RISys-Lab/RedSage-K-SFT` (8B, KaliBench), `mradermacher/Llama-3.1-8B-kali-pentester-GGUF` (8B, GGUF).
+* **Seguridad ofensiva / código / red team:** `WhiteRabbitNeo-V3-7B` (sobre `Qwen2.5-Coder-7B`, GGUF), `VextLabsinc/pentest-7b` (7B), `Ironcybersec/foundation-sec-8b-red-team` (8B, GGUF), `jackysnake/RedCoder` (8B).
+* **Hardening / Blue Team:** `Qwen2.5-Coder-7B-Instruct`, `fdtn-ai/Foundation-Sec-8B-Instruct`.
+
