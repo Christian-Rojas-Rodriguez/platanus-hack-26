@@ -8,7 +8,7 @@
 
 ![Notas de Jaime: mapa de dificultad vs impacto](research/notas/jaime-aza/mapa-ideas-equipo.svg)
 
-Versión 2, actualizada con el brief de Juanfe (`docs/ai-safety-track-brief.md`). El anillo rojo punteado marca el carril saturado según el brief. Razones de cada punto en [research/notas/jaime-aza/mapa-ideas-equipo.md](research/notas/jaime-aza/mapa-ideas-equipo.md).
+Versión 3, con el brief de Juanfe (`docs/ai-safety-track-brief.md`) y una segunda investigación. El anillo rojo punteado marca lo que ya existe o el jurado ya vio en el tour. Razones de cada punto en [mapa-ideas-equipo.md](research/notas/jaime-aza/mapa-ideas-equipo.md) y puntuación con la rúbrica en [investigacion-2-brief-y-rubrica.md](research/notas/jaime-aza/investigacion-2-brief-y-rubrica.md).
 
 ## Estructura
 
