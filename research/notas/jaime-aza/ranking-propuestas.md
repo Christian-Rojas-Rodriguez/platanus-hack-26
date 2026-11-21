@@ -5,18 +5,18 @@
 Versión 3.1 (21-11-2026). Cambios desde la versión 2:
 
 - Suma «reversibilidad para agentes» (cuarta): funde la recuperación tras un agente destructor con dos ideas de Jaime (más poder al agente es más útil y más riesgoso, así que en vez de quitarle poder hacer que todo sea reversible; y un producto de seguridad cuyo cliente es el propio agente). Iba primera, pero el informe forense de Christian (`research/notas/christian-rojas/forense/`) mostró que Rubrik, Veeam, Commvault y Cohesity ya venden «deshacer» para agentes empresariales.
-- Sube el preflight de contención a primero con el informe de contención de Christian (`research/notas/christian-rojas/contencion-playgrounds/`).
+- Sube el chequeo previo de contención (preflight) a primero con el informe de contención de Christian (`research/notas/christian-rojas/contencion-playgrounds/`).
 
 - Suma las propuestas nuevas de Federico (AegisHub, `research/notas/fede-horl/`) y de Mauricio (red teaming con modelos abiertos y hardening, `research/notas/m-investigacion_red_teaming_open_weight_hardening.md`).
 - Suma una idea nueva de mi investigación sobre ransomware y ataques con IA: [investigacion-4-ransomware-con-ia.md](investigacion-4-ransomware-con-ia.md).
-- Baja el juez por ejecución después de revisarlo a fondo (detalle abajo), así que el preflight de contención pasa a primero.
+- Baja el juez por ejecución después de revisarlo a fondo (detalle abajo).
 - Baja la brecha en español: el paper que subió Mauricio (`research/papers/paper.tex`, hackathon de Apart de junio de 2026) ya planteó la comparación inglés contra «español diverso».
 
 Cada propuesta lleva la categoría de la guía de Kairos y un puntaje de 0 a 100 según la rúbrica del jurado: aspecto técnico 25 %, ambición 20 %, ejecución 20 %, impacto 20 %, originalidad 15 %. Cuando dos o más propusimos lo mismo, va en una sola fila con todos los autores.
 
 | # | Propuesta | Autor | Categoría Kairos | Puntos | Cambio | Por qué |
 |---|---|---|---|---|---|---|
-| 1 | Preflight de contención para evaluaciones | Jaime (cercana al hueco 2 del informe 29 de Christian) | AI control (cercano a cyber evals) | **69,5** | 67 → 69,5 | Recortada a dos comprobaciones: salida real a internet desde el entorno del agente y cobertura del monitor con acciones señuelo inofensivas. Mejor villano del año y ejecución más segura. Sube por el informe de contención de Christian: diez frentes no hallaron ningún producto ni herramienta abierta que verifique antes de empezar que el entorno está realmente cerrado, METR dice que su plataforma aún no corre esa prueba, y 4 de 5 incidentes de 2026 vinieron de una red mal configurada. Débil en la métrica, que se mide sobre fallas plantadas por nosotros |
+| 1 | Chequeo previo de contención para evaluaciones (preflight) | Jaime (cercana al hueco 2 del informe 29 de Christian) | AI control (cercano a cyber evals) | **69,5** | 67 → 69,5 | Recortada a dos comprobaciones: salida real a internet desde el entorno del agente y cobertura del monitor con acciones señuelo inofensivas. Mejor villano del año y ejecución más segura. Sube por el informe de contención de Christian: diez frentes no hallaron ningún producto ni herramienta abierta que verifique antes de empezar que el entorno está realmente cerrado, METR dice que su plataforma aún no corre esa prueba, y 4 de 5 incidentes de 2026 vinieron de una red mal configurada. Débil en la métrica, que se mide sobre fallas plantadas por nosotros |
 | 2 | Juez de trayectorias por ejecución | Brief de Juanfe + Jaime + Christian | AI control | **65,5** | 75,5 → 65,5 | Baja fuerte. La solución de referencia no sirve como vara: en la tarea 1012 de Terminal Wrench tampoco usa el comando que pide la instrucción y la corrida honesta deja un estado distinto. Reproducir pulsaciones en entornos que instalan paquetes por red no es fiable, y medir solo en las tareas que construyen fácil no es comparable con el 44 % publicado. EvalGuard ya publica cifras propias. Solo lo defendería como piloto de 3 a 5 tareas con comprobaciones escritas a mano |
 | 2 | Eval Mirage | Tomás + brief de Juanfe | No encaja limpio (cercano a AI control) | **65,5** | = | Cuatro condiciones pareadas con criterio de corte. Riesgo: con pocas corridas el efecto puede ser ruido |
 | 4 | Reversibilidad para agentes (funde la recuperación tras un agente destructor, el «rewind» de Christian y dos ideas nuevas de Jaime) | Jaime + Christian | AI control | **65,5** | nueva | Dar al agente todo el acceso, pero que todo lo que haga se pueda deshacer, en vez de quitarle poder. El cliente es el propio agente: un servidor MCP al que llama antes de algo riesgoso («guarda un punto») y después si se equivocó («deshaz»), más una segunda opinión sobre si una acción es reversible. Las copias viven fuera de su alcance aunque no las pida. Se mide contra el deshacer de Claude Code, Gemini CLI y OpenCode (Claude Code documenta que no rastrea lo que cambia solo por terminal): archivos recuperados por hash y utilidad que se conserva frente a bloquear. En contra: Rubrik (Agent Rewind, desde 2025), Veeam, Commvault y Cohesity ya venden «deshacer» para agentes empresariales (Salesforce, Microsoft 365, nube), según el informe forense de Christian. Lo que queda libre es el agente de código en el sistema de archivos local, el agente como cliente y medir cuánto se recupera. Además, un agente que quiere engañar no llamaría al servicio |
@@ -67,7 +67,7 @@ Si el equipo igual lo quiere, la versión defendible es un piloto acotado y sin 
 
 | Propuesta | Orig. | Amb. | Ejec. | Téc. | Imp. | Total |
 |---|---|---|---|---|---|---|
-| Preflight de contención (recortado) | 7 | 6 | 8 | 6 | 8 | 69,5 |
+| Chequeo previo de contención | 7 | 6 | 8 | 6 | 8 | 69,5 |
 | Juez de trayectorias por ejecución | 5 | 8 | 3 | 8 | 8 | 65,5 |
 | Reversibilidad para agentes | 4 | 7 | 7 | 7 | 7 | 65,5 |
 | Brecha de salvaguardas en español regional | 5 | 6 | 8 | 6 | 7 | 64,5 |
