@@ -1,0 +1,30 @@
+# secretos
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# datos y salidas pesadas (se versiona solo la carpeta)
+datos/crudos/*
+datos/procesados/*
+experimentos/*/salida/
+!**/.gitkeep
+*.safetensors
+*.gguf
+*.bin
+
+# sistema / editor
+.DS_Store
+.idea/
+.vscode/
+.remember/
