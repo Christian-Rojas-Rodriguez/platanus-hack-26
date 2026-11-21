@@ -2,6 +2,12 @@
 
 > **Estado:** etapa de research. Todavía no hay idea definida; estamos leyendo y juntando notas en `research/`.
 
+## Mapa de ideas: dificultad vs impacto
+
+![Mapa de dificultad vs impacto de las ideas del equipo](research/notas/jaime-aza/mapa-ideas-equipo.svg)
+
+Detalle y razones de cada punto en [research/notas/jaime-aza/mapa-ideas-equipo.md](research/notas/jaime-aza/mapa-ideas-equipo.md).
+
 ## Estructura
 
 | Carpeta | Para qué |
