@@ -2,11 +2,13 @@
 
 > **Estado:** etapa de research. Todavía no hay idea definida; estamos leyendo y juntando notas en `research/`.
 
-## Mapa de ideas: dificultad vs impacto
+## Notas de Jaime: mapa de ideas (dificultad vs impacto)
 
-![Mapa de dificultad vs impacto de las ideas del equipo](research/notas/jaime-aza/mapa-ideas-equipo.svg)
+> Opinión personal de Jaime para discutir, **no una decisión del equipo**. La idea la elegimos entre todos.
 
-Detalle y razones de cada punto en [research/notas/jaime-aza/mapa-ideas-equipo.md](research/notas/jaime-aza/mapa-ideas-equipo.md).
+![Notas de Jaime: mapa de dificultad vs impacto](research/notas/jaime-aza/mapa-ideas-equipo.svg)
+
+Versión 2, actualizada con el brief de Juanfe (`docs/ai-safety-track-brief.md`). El anillo rojo punteado marca el carril saturado según el brief. Razones de cada punto en [research/notas/jaime-aza/mapa-ideas-equipo.md](research/notas/jaime-aza/mapa-ideas-equipo.md).
 
 ## Estructura
 

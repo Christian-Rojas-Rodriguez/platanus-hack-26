@@ -1,5 +1,7 @@
 # Propuestas de Jaime Aza
 
+> **Notas personales de Jaime para discutir, no una decisión del equipo.** Escritas antes del brief de Juanfe; mi lectura actualizada está en [mapa-ideas-equipo.md](mapa-ideas-equipo.md).
+
 Cinco alternativas para el track AI Security, filtradas con los criterios del mentor y la guía de Kairos (`research/papers/kairos-guia-ai-security.pdf`). El estado del arte que las respalda está en [estado-del-arte.md](estado-del-arte.md).
 
 ## Criterios usados

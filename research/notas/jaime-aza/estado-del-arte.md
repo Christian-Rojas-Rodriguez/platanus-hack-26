@@ -1,5 +1,7 @@
 # Estado del arte de AI Security (a noviembre de 2026)
 
+> **Notas personales de Jaime para discutir, no una decisión del equipo.**
+
 Investigado por Jaime Aza el 20-11-2026 a partir de la guía de Kairos (`research/papers/kairos-guia-ai-security.pdf`). Varias cifras vienen de preprints de arXiv o de reportes de proveedores que nadie ha auditado. Conviene abrir la fuente antes de citarla ante el jurado.
 
 ## Resumen por subárea
