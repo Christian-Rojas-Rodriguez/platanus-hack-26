@@ -110,7 +110,7 @@ Los porcentajes de gap salen de la búsqueda y son una estimación, no una medic
 
 ## 5. Anti-vishing: detectar voces clonadas en llamadas en español
 
-**Problema y daño.** El mejor detector público de deepfakes de voz falla un 29 % en español (EER en VoxENES 2026).
+**Problema y daño.** El mejor detector público de deepfakes de voz falla un 29 % en español (EER en VoxENES 2026). Corrección del 21-11: ese 29 % es el error global del benchmark, no el del español (lo detectó Christian en su informe 32).
 
 **Solución.** Ajustarlo con audio chileno de llamada telefónica (8 kHz).
 
