@@ -1,5 +1,7 @@
 # Platanus Hack 26 — AI Security
 
+> **Nueva solución en validación:** Cachai, el auditor de modelos servidos en token-as-a-service. README completo en [docs/README-cachai-auditor.md](docs/README-cachai-auditor.md).
+
 > **Estado:** etapa de research. Todavía no hay idea definida; estamos leyendo y juntando notas en `research/`.
 
 ## Notas de Jaime: mapa de ideas (dificultad vs impacto)
